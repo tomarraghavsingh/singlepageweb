@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#body{
+    background-color: rgb(79, 102, 102);
+    color: wheat;
+    font-family:'Times New Roman', Times, serif; 
+}
+#nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(5, 1, 3, 0.676);
+}
+#ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none; 
+    margin: 0 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: crimson;
+    font-size: 1.2rem;
+}
+#left{
+    font-size: 1.75rem;
+}
+#sec{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+}
+#leftsec{
+    /* background-color: rgba(5, 1, 3, 0.676); */
+    font-size: 3.2rem;
+    margin-top: 75px;
+    justify-content: center;
+}
+#rightsec{
+    background-color: gainsboro;
+    
+}
+#violet{
+    color: rgb(142, 193, 24);
+} 
+#element{
+    color: lavender;
+}
+#secondSec{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+
+}
+#secondSec h1{
+    font-size: 1.8rem;
+}
+
+main hr{
+    border: 0;
+    background: white;
+    height: 1.2px;
+    margin: 40px 84px;;
+}
+#gray{
+    color: rgb(203, 185, 220);
+}
+#secondSec .vertical{
+  height: 93px;
+  width: 100px;
+  background-color: white;
+  margin: 120px;
+  display: flex;
+}
+#secondSec{
+    text-align: center;
+   
+}
+#secondSec h1{
+    text-align: center;
+    font-size: 55px;
+}
+#secondSec li{
+    font-size: 30px;
+}
+#form{
+     font-size: 30px;
+     
+}
+#box{
+    align-items: center;
+}
+#box btn{
+
+}
+#form2{
+   align-items: center;
+
+}
+
+#form2 input{
+    width: 400px;
+}
+#footerbox1{
+    height: 450px;
+    width: 100%;
+    border: black solid;
+    align-items: center; 
+    display: flex;
+    justify-content: space-evenly;
+}
+#fb2{
+
+width: 50%;
+/* border: black 6px; */
+border-width: 4px;
+
+
+}
+#fb2 img{
+    width: 110%;
+}
+#fb3{
+    /* height: 80%; */
+    width: 50%;
+    /* border: black 1px; */
+}
+#fb3 img{
+    width: 100%;
+}
+#image-top{
+ height: 78px;
+}
+#vertical{
+height: 50px;
+width: 50px;
+border: red ;
+}
+
+#footer{
+    background-color: #8b8baf;
+    /* 
+    height: 233px; */
+}
+#footer{
+    display: flex ; 
+     padding: 25px ; 
+    justify-content: space-evenly;
+}
+#footer ul{
+    list-style: none;
+}
+#footer div{
+    width: 123px;
+}
+footer #footer-rights{
+    text-align: center;
+}
